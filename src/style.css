@@ -1,6 +1,30 @@
+body {
+  margin: 0;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
 }
+
+/* .circle-group {
+  animation-name: ckw;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes ckw {
+  0% {
+    transform: translate(200px, 200px) rotate(0deg);
+  }
+  50% {
+    transform: translate(200px, 200px) rotate(180deg);
+  }
+  100% {
+    transform: translate(200px, 200px) rotate(360deg);
+  }
+} */
